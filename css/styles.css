@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family:  'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    color: #fff;
+    font-size: 16px;
+}
+
+.spanHeader {
+    padding: 10px 20px 10px;
+}
+
+.listHeader {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.listHeader > li {
+    padding: 0 15px;
+}
+
+main {
+    margin: 35px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.deliveryContainer > img {
+    position: relative;
+}
+
+.deliveryContainer > span {
+    position: absolute;
+    left: 130px;
+    bottom: 505px;
+}
+
+.podiumContainer {
+    background-color: #fff;
+    border-radius: 5px;
+    font-weight: 700;
+    width: 490px;
+    height: 350px;
+}
+
+.podiumContainer > img {
+   padding: 25px 160px;
+}
+
+.podiumContainer > span {
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.detailsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.detailsContainer > ul {
+    list-style: decimal;
+    font-size: 16px;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: #222222;
+    color: #fff;
+    font-size: 16px;
+}
+
+.spanFooter {
+    padding: 55px;
+}
+
+.listFooter {
+    list-style: none;
+    margin: 20px;
+}
+
+.listFooter > li {
+    padding: 10px 0;
+}
+

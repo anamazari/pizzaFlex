@@ -50,7 +50,8 @@ main {
 .deliveryContainer > span {
     position: absolute;
     left: 130px;
-    bottom: 505px;
+    top: 175px;
+    z-index: 1;
 }
 
 .podiumContainer {
